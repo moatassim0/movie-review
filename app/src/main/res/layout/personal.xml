@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F477E"
+    tools:context=".Personal">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#30377E"
+        android:fontFamily="@font/aclonica"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:text="CinePhile"
+        android:textAlignment="center"
+        android:textColor="#BC9F4E"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/mostWatchedRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        tools:layout_editor_absoluteX="-2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="Favourites"
+                android:textColor="#FFD700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/favouriteViewAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClickViewAll"
+                android:text="View All"
+                android:textColor="#FFD700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/favorite1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/favorite2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/favorite3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/favorite4"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recentlyAddedRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/mostWatchedRow"
+        tools:layout_editor_absoluteX="-2dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:text="Reviews"
+                android:textColor="#FFD700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/reviewsViewAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClickViewAll"
+                android:text="View All"
+                android:textColor="#FFD700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/reviewed1"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/reviewed2"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/reviewed3"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/reviewed4"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMovie"
+                    android:tag="x"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/image_empty"
+                    android:scaleType="fitCenter" />
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="50dp"
+        android:background="#30377E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#30377E"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/home"
+            android:onClick="onClickHomeButton"/>
+
+        <ImageButton
+            android:id="@+id/directoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#30377E"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/directory"
+            android:onClick="onClickDirectoryButton"/>
+
+        <ImageButton
+            android:id="@+id/personalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#30377E"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/person_clicked"
+            android:onClick="onClickPersonalButton"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
