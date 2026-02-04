@@ -1,4 +1,4 @@
-### Android Movie Review Application Project (CinePhile)
+# Android Movie Review Application Project (CinePhile)
 
 The movie review app allows users to browse a wide range of movies, as well as viewing a curated list that is based off of different multiple factors such as rating, release date, views, etc., all available to the user to leave and view reviews, as well as added options to interact with the movie.
 
