@@ -57,10 +57,7 @@ This app is a Java-based Android application that uses a local SQLite database t
 - Recent favorite movies
 - Recently reviewed movies
 
-
-<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/e91ebc98-7d90-47e7-9985-5af8e0419f84" />
-<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/16fde13e-9390-4de4-8604-0678f9878f69" />
-<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/7ac687f6-b614-455c-afe1-1359125547d6" />
+<p><img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/e91ebc98-7d90-47e7-9985-5af8e0419f84" /><img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/16fde13e-9390-4de4-8604-0678f9878f69" /><img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/7ac687f6-b614-455c-afe1-1359125547d6" /></p>
 
 
 ---
