@@ -12,6 +12,7 @@ An Android application for browsing movies, tracking watched and favorite titles
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Building from the Command Line](#building-from-the-command-line)
+- [Manual](#user-manual)
 - [Notes](#notes)
 - [Future Improvements](#future-improvements)
 
@@ -56,6 +57,11 @@ This app is a Java-based Android application that uses a local SQLite database t
 - Recent favorite movies
 - Recently reviewed movies
 
+<p align="center">
+<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/e91ebc98-7d90-47e7-9985-5af8e0419f84" />
+<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/16fde13e-9390-4de4-8604-0678f9878f69" />
+<img width="260" height="530" alt="image" src="https://github.com/user-attachments/assets/7ac687f6-b614-455c-afe1-1359125547d6" />
+</p>
 ---
 
 ## Tech Stack
@@ -131,6 +137,65 @@ The output APK will be generated at:
 ```
 app/build/outputs/apk/debug/app-debug.apk
 ```
+
+---
+
+## User Manual
+
+To use the app, first download the latest release of the APK file [here](https://github.com/moatassim0/movie-review/releases/tag/APK) Once you have the APK, transfer it to your Android device if needed and install it.
+
+### 1. Registering an Account
+
+When you open the application for the first time, you will need to create an account. Registration requires a username, email address, password, and gender to sign up.
+
+<p align="center">
+  <img width="320" height="640" alt="image" src="https://github.com/user-attachments/assets/2a6ccb9e-c077-4549-8af4-02d16b8cf45f" />
+
+</p>
+
+---
+
+### 2. Opening the Application
+
+After registering, you will be directed to the Home screen. You will find a selection of curated categories such as "Most Watched," "Recently Added," and "Highly Rated" to help new users discover popular titles.
+
+<p align="center">
+  <img width="320" height="640" alt="image" src="https://github.com/user-attachments/assets/52034a58-9557-4b5a-a07e-955af681d0ab" />
+
+</p>
+
+---
+
+### 3. Adding Movies to Favorites
+
+Open any movie from the Home or Movies page and tap **Favorite** to save it to your profile. This marks the movie as a personal favorite within your account.
+
+<p align="center">
+  <img width="320" height="640" alt="image" src="https://github.com/user-attachments/assets/d1066d7f-2d67-4788-93bb-42d6d32f913e" />
+
+</p>
+
+---
+
+### 4. Rating and Writing Reviews
+
+Select any movie from the collection, assign it a star rating, and write your personal review in the text field. Reviews are saved to the system and linked to your profile upon submission.
+
+<p align="center">
+  <img width="320" height="640" alt="image" src="https://github.com/user-attachments/assets/08ea2a05-a1cb-4fb9-8c31-1915684731c1" />
+
+</p>
+
+---
+
+### 5. Profile Page
+
+Tap the user icon in the bottom navigation bar to access your Profile page. It displays all movies you have watched, rated, and reviewed, keeping a complete record of your activity on the app.
+
+<p align="center">
+  <img width="320" height="640" alt="image" src="https://github.com/user-attachments/assets/da57b35d-8269-43ea-81e7-77e9cd0c9c78" />
+
+</p>
 
 ---
 
